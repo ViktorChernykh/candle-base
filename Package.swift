@@ -9,10 +9,10 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        .library(name: "CandleDto", targets: ["CandleDto"]),
+        .library(name: "CandleBase", targets: ["CandleBase"]),
     ],
     dependencies: [],
     targets: [
-        .target(name: "CandleDto", dependencies: []),
+        .target(name: "CandleBase", dependencies: []),
     ]
 )
